@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminSignupActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:layout_centerHorizontal="true"
+        android:text="Admin Sigin Registration Form"
+        android:textStyle="italic"
+        android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="201dp"
+                android:layout_height="199dp"
+                android:layout_below="@id/textView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@android:dimen/app_icon_size"
+                android:layout_marginTop="1dp"
+                android:paddingTop="30dp"
+                app:srcCompat="@drawable/logopng" />
+
+            <EditText
+        android:id="@+id/admin_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+                android:textColor="@color/textColor"
+        android:hint="USER NAME"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:maxLines="1"
+        android:maxLength="20"/>
+
+    <EditText
+        android:id="@+id/signup_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="15dp"
+        android:hint="phone number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="20dp"
+        android:textColor="@color/textColor"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_phone_number"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/textColor"
+        android:hint="password"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/admin_shop_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_password"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/textColor"
+        android:hint="Full address"
+        android:inputType="text"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/admin_adress_pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_shop_address"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="15dp"
+        android:hint="pincode"
+        android:maxLines="1"
+        android:inputType="textPostalAddress"
+        android:padding="20dp"
+        android:textColor="@color/textColor"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/admin_emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_adress_pincode"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/textColor"
+        android:hint="Email Id"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/admin_pancard_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_emailid"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/textColor"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:hint="PAN number"
+        android:inputType="text"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/admin_signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_below="@+id/admin_pancard_number"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:textColor="@color/colorButtonText"
+        android:text="ADMIN SIGNUP"
+        android:textSize="15dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

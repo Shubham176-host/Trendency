@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#AFAFAF"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/order_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="UserName"
+                android:textSize="16dp"
+                android:textColor="@color/textColor" />
+            <TextView
+                android:id="@+id/order_product_id"
+                android:layout_width="1600dp"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textSize="16dp"
+                android:textColor="@color/textColor"
+                android:layout_below="@+id/order_user_name"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/order_phone_number"
+                android:layout_width="1600dp"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textSize="16dp"
+                android:textColor="@color/textColor"
+                android:layout_below="@+id/order_product_id"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/order_total_price"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Total Price"
+                android:textSize="16dp"
+                android:textColor="@color/textColor"
+                android:layout_marginStart="5dp"
+                android:layout_below="@+id/order_phone_number"
+                android:layout_marginTop="25dp"
+                />
+
+            <TextView
+                android:id="@+id/order_size"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/textColor"
+                android:layout_marginStart="5dp"
+                android:layout_below="@+id/order_phone_number"
+                android:layout_marginTop="25dp"
+                android:layout_alignParentEnd="true"
+                />
+
+            <TextView
+                android:id="@+id/order_address_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address, City"
+                android:textSize="14dp"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/textColor"
+                android:layout_below="@+id/order_total_price"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/order_payement_state"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Payment"
+                android:textSize="14dp"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/textColor"
+                android:layout_below="@+id/order_address_city"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/order_date_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date, Time"
+                android:textSize="14dp"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/textColor"
+                android:layout_below="@+id/order_payement_state"
+                android:layout_marginTop="10dp"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

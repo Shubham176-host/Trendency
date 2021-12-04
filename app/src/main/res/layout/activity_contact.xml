@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.ContactActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/x0222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:layout_marginTop="8dp"
+                android:text="Email:"
+                android:textColor="@color/textColor"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/x0221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/x0222"
+                android:layout_margin="10dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/textColor"
+                android:text="teamhexadevelopers@gmail.com"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/x0221"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="45dp"
+                android:background="@drawable/input_design"
+                android:hint="Feedback/problems"
+                android:textColor="@color/textColor"
+                android:lines="5"
+                android:padding="20dp" />
+
+            <Button
+                android:id="@+id/submit_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/feedback"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="45dp"
+                android:background="@drawable/buttons"
+                android:padding="17dp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/colorButtonText"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

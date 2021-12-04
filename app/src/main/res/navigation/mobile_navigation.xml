@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_main_home">
+    <fragment
+        android:id="@+id/nav_main_home"
+        android:name="com.example.aptaki.Option.home.HomeFragment"
+        android:label="TrENDENCY"
+        />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.aptaki.Option.gallery.CartFragment"
+        android:label="TrENDENCY" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:label="TrENDENCY"
+        android:name="com.example.aptaki.Option.category.CategoryFragment"/>
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:label="TrENDENCY"
+        tools:layout="@layout/activity_search_products"/>
+
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.aptaki.Option.tools.ToolsFragment"
+        android:label="@string/menu_tools" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.aptaki.Option.share.ShareFragment"
+        android:label="TrENDENCY"
+        />
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.example.aptaki.Option.send.SendFragment"
+        android:label="TrENDENCY"
+        />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.aptaki.Option.order.OrderFragment"
+        android:label="TrENDENCY"
+        />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.aptaki.Option.contact.ContactFragment"
+        android:label="TrENDENCY"
+         />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.aptaki.Option.tools.ToolsFragment"
+        android:label="TrENDENCY"
+       />
+
+</navigation>

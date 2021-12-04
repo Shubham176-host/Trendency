@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.PaymentGatewayActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tectt211"
+        android:text="Select payment method"
+        android:textStyle="bold"
+        android:textColor="@color/defaultColor"
+        android:textSize="20sp"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/payoncod"
+        android:text="COD (Cash On delivery)"
+        android:layout_below="@id/tectt211"
+        android:textColor="@color/defaultColor"
+        android:textSize="18sp"
+        android:layout_marginStart="30dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/payonlinecheck"
+        android:text="Go Cashless"
+        android:layout_below="@id/payoncod"
+        android:textColor="@color/defaultColor"
+        android:textSize="18sp"
+        android:layout_margin="30dp" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payonlinecheck"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView553"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            app:srcCompat="@drawable/freecharge" />
+
+        <ImageView
+            android:id="@+id/imageView443"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            app:srcCompat="@drawable/paytm" />
+
+        <ImageView
+            android:id="@+id/imageView311"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            app:srcCompat="@drawable/amazonpay" />
+
+        <ImageView
+            android:id="@+id/imageView322"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            app:srcCompat="@drawable/mobikwik" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            app:srcCompat="@drawable/phonepe" />
+
+        <ImageView
+            android:id="@+id/imageView333"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            app:srcCompat="@drawable/googlepay" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/linear_layout1"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:id="@+id/Total_amaount"
+            android:textSize="20dp"
+            android:text="Price"
+            android:textStyle="bold"
+            android:textColor="@color/colorMainText"/>
+
+        <Button
+            android:id="@+id/final_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pay Now"
+            android:layout_centerInParent="true"
+            android:layout_margin="30dp"
+            android:layout_below="@+id/Total_amaount"
+            android:textColor="@color/colorButtonText"
+            android:background="@drawable/buttons"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

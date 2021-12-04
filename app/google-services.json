@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "727307682390",
+    "firebase_url": "https://aptaki.firebaseio.com",
+    "project_id": "aptaki",
+    "storage_bucket": "aptaki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727307682390:android:3d1c2c92a624ebe5cd31f7",
+        "android_client_info": {
+          "package_name": "com.example.aptaki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727307682390-mpm5ku5ndijajl9qb4q0i1i6ek05oj5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aptaki",
+            "certificate_hash": "f6540d966e6f507f8560220a8751b968a3a6187e"
+          }
+        },
+        {
+          "client_id": "727307682390-afsktj440bmalc0ep2jpil6iaoftaigk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGnDCrVIT-IlBhJOFUQYrTsININzFW8Ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727307682390-afsktj440bmalc0ep2jpil6iaoftaigk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
